@@ -22,10 +22,10 @@ for ($i = 0; $i < 100; $i++) {
 ```
 
 #### Notes
-the Demo_1 is your worker class, should implement Worker interface which contains a run function in it
+the Demo_1 is your worker class, should implement Worker interface which contains a run() function in it
 
 #### other
-model_1 forks twice so as to avoid zombie process
+Model_1 forks twice so as to avoid zombie process
 
 ### Model_2
 
@@ -45,7 +45,7 @@ $model->waitStop();
 ```
 
 #### Notes
-- the Demo_1 is supposed to implement Worker interface which contains a run function in it
+- the Demo_1 is supposed to implement Worker interface which contains a run() function in it
 - before you call run() function, you should push all tasks into list with the push() function
 - after call run() function, the model will fork sub-process and pop a task from the list to the demo's construction function
 
