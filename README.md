@@ -3,7 +3,9 @@ common multiple process model for yii2
 
 ## How to use it
 
-put the multiProcess directory into your yii2's component directory
+- [Posix](http://php.net/manual/en/book.posix.php) extension for php is needed
+- only for Unix-based system(such as Ubuntu, MacOS)
+- then put the multiProcess directory into your yii2's component directory
 
 ### Model_1
 
