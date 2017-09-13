@@ -1,7 +1,7 @@
 # yii2-multi-process
 common multiple process model for yii2
 
-## How to use it
+### How to use it
 
 - [Posix](http://php.net/manual/en/book.posix.php) extension for php is needed
 - only for Unix-based system(such as Ubuntu, MacOS)
