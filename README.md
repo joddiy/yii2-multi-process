@@ -22,7 +22,7 @@ for ($i = 0; $i < 100; $i++) {
 ```
 
 #### Notes
-the Demo_1 is your worker class, should implement Worker interface which contains a run() function in it
+the Demo_1 is your worker class which should implement Worker interface with a run() function in it
 
 #### other
 Model_1 forks twice so as to avoid zombie process
