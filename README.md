@@ -37,7 +37,7 @@ Model_1 forks twice so as to avoid zombie process
 
 ```php
 $model = new Model_2(10, 'app\services\MultiProcess\Demo\Demo_1');
-for  * ($i = 0; $i < 100; $i++) {
+for ($i = 0; $i < 100; $i++) {
      $model->push($i);
 }
 $model->run();
@@ -49,7 +49,7 @@ $model->waitStop();
 - before you call run() function, you should push all tasks into list with the push() function
 - after call run() function, the model will fork sub-process and pop a task from the list to the demo's construction function
 
-#### 说明
+#### other
 Model_2 use Unix's wait() function to limit the number of sub-process, when it is up to the maximum, the parent process will wait
 
 ### Model_3
